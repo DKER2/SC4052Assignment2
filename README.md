@@ -27,7 +27,7 @@ s ensures that anyone setting up the project has the necessary dependencies.
 
 To run the Streamlit application, follow these steps:
 
-1  **Navigate to the home Directory:** Use the `cd` command in your terminal to navigate to the directory where the main Streamlit application file (`assignment2.py` file) is located.
+1.  **Navigate to the home Directory:** Use the `cd` command in your terminal to navigate to the directory where the main Streamlit application file (`assignment2.py` file) is located.
 
 2.  **Run the Streamlit App:**
 
