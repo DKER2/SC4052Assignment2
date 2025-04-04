@@ -21,7 +21,7 @@ def get_file_code(owner, repo, file_path):
     Returns:
         str: The decoded content of the file (as UTF-8), or None if an error occurs.
     """
-    print("Trigger get file code")
+    print(f"Trigger get file code with file path {file_path}")
     github_token = os.getenv("GITHUB_AUTH_TOKEN")
     headers = {
         "Accept": "application/vnd.github+json",
@@ -55,7 +55,7 @@ def get_file_code(owner, repo, file_path):
 
 
 def search_repo(owner, repo, query):
-    print(f"Trigger search repo {query}")
+    print(f"Trigger search repo with query {query}")
     # GitHub API endpoint for searching code in a specific repository
     api_url = (
         f"https://api.github.com/search/code?q={query}+language:js+repo:{owner}/{repo}"
