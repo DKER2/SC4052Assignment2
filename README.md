@@ -1,4 +1,3 @@
-# Table of Contents
 
 1.  [Installation](#1-installation)
 2.  [Understanding the Repository Structure](#2-understanding-the-repository-structure)
@@ -18,7 +17,6 @@ A well-organized Streamlit project often follows a structure similar to this:
 
 * **`.gitignore`:** Helps manage which files are tracked by Git, especially useful for excluding virtual environment folders, data files, or temporary files.
 s ensures that anyone setting up the project has the necessary dependencies.
-* **`data/`:** This folder typically stores the datasets used by the Streamlit application. Keeping data separate from the code makes the project more organized.
 * **`assigment2.py`:** This file include the definition of streamlit application, how UI is structer
 * **`gemini_model.py`:** This file include the definition of all function declaration as well as the services provided by Gemini model
 
